@@ -5,7 +5,7 @@
 Humble highlights:
 
 * auto-detect and merge chaptered video files in a directory with pretty terminal summary
-* preserve gyroscopic metadata streams for stabilization postprocessing (e.g. via [GyroFlow](https://gyroflow.xyz/))
+* preserve gyroscopic metadata streams for stabilization postprocessing (e.g. via [GyroFlow](https://gyroflow.xyz/)). Default file concatenation via `FFMPEG` or GUI tools like DaVinci result in discarding the gyro data.
 
 CLI report example
 
