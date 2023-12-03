@@ -31,6 +31,8 @@ configuration file.
 <!-- ROADMAP -->
 ## Roadmap
 
+* [ ] Improve installation
+  * [ ] Auto-install core binaries or detect from path/env ?
 * [ ] Expand logging
   * [ ] More log messages
   * [ ] Option for log file saving
