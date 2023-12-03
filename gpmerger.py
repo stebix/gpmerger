@@ -11,7 +11,7 @@ from rich.console import Console
 
 # logging setup - do this before importing other custom modules to correctly process 
 # log messages
-from logtools import DEFAULT_FORMAT, deduce_loglevel
+from src.logtools import DEFAULT_FORMAT, deduce_loglevel
 
 logger = logging.getLogger('main')
 handler = logging.StreamHandler()
@@ -27,9 +27,9 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 # deferred importing due to logging setup
-from concattools import ConcatBackend, concatenate_bulk
-from filetools import crawl, parse_filepath, accumulate_filenumberwise
-from reporttools import TIMESTAMP_FORMAT, build_table_report, build_tree_report
+from src.concattools import ConcatBackend, concatenate_bulk
+from src.filetools import crawl, parse_filepath, accumulate_filenumberwise
+from src.reporttools import TIMESTAMP_FORMAT, build_table_report, build_tree_report
 
 
 def create_root() -> argparse.ArgumentParser:
