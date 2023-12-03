@@ -7,6 +7,10 @@ Humble highlights:
 * auto-detect and merge chaptered video files in a directory with pretty terminal summary
 * preserve gyroscopic metadata streams for stabilization postprocessing (e.g. via [GyroFlow](https://gyroflow.xyz/))
 
+CLI report example
+
+![CLI](https://github.com/stebix/gpmerger/blob/trunk/.assets/ui.PNG)
+
 ## Prerequisites
 
 `gpmerger` uses Python version 3.11 and [`rich`](https://github.com/Textualize/rich) for pretty terminal visualization.
