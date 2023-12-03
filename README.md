@@ -9,15 +9,15 @@ Humble highlights:
 
 ## Prerequisites
 
-`gpmerger` uses Python version 3.11 and `rich` for pretty terminal visualization.
+`gpmerger` uses Python version 3.11 and [`rich`](https://github.com/Textualize/rich) for pretty terminal visualization.
 
 <!-- ROADMAP -->
 ## Roadmap
 
-* [] Expand logging
-  * [] More log messages
-  * [] Option for log file saving
-* [] Add intra-file merging feedback or progress reporting
+* [ ] Expand logging
+  * [ ] More log messages
+  * [ ] Option for log file saving
+* [ ] Add intra-file merging feedback or progress reporting
 
 <!-- LICENSE -->
 ## License
