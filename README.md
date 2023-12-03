@@ -22,11 +22,14 @@ You thus need to install one or both to use the respective program as a merging 
 
 Then you will have to set the installation path of the executables in the `conf.toml`
 configuration file.
-``
-  [binaries]
-  FFMPEG = "~/your/path/to/ffmpeg.exe"
-  MP4MERGE = "~/your/path/to/mp4merge.exe"
-``
+
+```
+
+[binaries]
+FFMPEG = "~/your/path/to/ffmpeg.exe"
+MP4MERGE = "~/your/path/to/mp4merge.exe"
+
+```
 
 <!-- ROADMAP -->
 ## Roadmap
